@@ -12,8 +12,8 @@ driver_config:
 provisioner:
   name: chef_zero
   chef_omnibus_url: http://sl73gsesaapd002.visa.com/chef/install.sh
-  roles_path: '../../roles'
-  environments_path: '../../environments'
+  roles_path: '../gse/roles'
+  environments_path: '../gse/environments'
 
 platforms:
   - name: rhel-6.5

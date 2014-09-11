@@ -15,5 +15,5 @@ cookbook 'runit', path: '../vendor_deps/runit'
 cookbook 'yum', path: '../vendor_deps/yum'
 cookbook 'yum-epel', path: '../vendor_deps/yum-epel'
 
-cookbook 'visa_deps', path: '../gse/cookbooks/visa_deps'
-cookbook 'windows', path: '../windows'
+cookbook 'visa_deps', git: 'https://stash.trusted.visa.com:7990/scm/gsesa/visa_deps.git', tag: '0.1.0'
+cookbook 'windows', git: 'https://stash.trusted.visa.com:7990/scm/gsesa/windows.git', tag: '1.31.1'
