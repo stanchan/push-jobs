@@ -14,9 +14,7 @@ supports 'debian'
 supports 'windows'
 
 # For per-platform resources, respectively
-depends 'chef-client'
 depends 'runit'
-depends 'visa_deps'
 depends 'windows'
 
 attribute('push_jobs/package_url',

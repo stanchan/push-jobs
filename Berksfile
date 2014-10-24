@@ -1,4 +1,4 @@
-source "http://api.berkshelf.com"
+source 'http://sl73chefapd004.visa.com'
 
 metadata
 
